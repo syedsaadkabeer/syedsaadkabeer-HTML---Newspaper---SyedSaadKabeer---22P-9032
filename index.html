@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urdu Newspaper Front Page Recreation (Pre-1990)</title>
+</head>
+<body>
+
+<!-- ===== Masthead / Newspaper Header ===== -->
+<header>
+  <table width="100%" cellpadding="6" cellspacing="0" border="0">
+    <tr>
+      <td width="20%" valign="top" align="left">
+        <img src="images/emblem.jpg" alt="Original decorative mark from newspaper" width="70">
+      </td>
+      <td width="60%" valign="top" align="center">
+        <!-- Removed the big title and publication/date line (red-highlighted area) -->
+      </td>
+      <td width="20%" valign="top" align="right">
+        <img src="images/masthead.jpg" alt="Masthead crop from original newspaper" width="240">
+      </td>
+    </tr>
+  </table>
+
+  <!-- ===== Navigation (required semantic tag) ===== -->
+  <nav>
+    <!-- Removed navigation links (red-highlighted area) -->
+    <hr>
+  </nav>
+</header>
+
+<!-- ===== Main Content Area ===== -->
+<main>
+
+  <!-- Layout uses ONE table as required: 3-column newspaper-style grid -->
+  <table width="100%" cellpadding="8" cellspacing="0" border="1" style="border-collapse:collapse;">
+    <tr>
+      <!-- ===== Left Column (photo + caption) ===== -->
+      <td width="34%" valign="top">
+        <!-- Lead Image (cropped from original scan) -->
+        <figure style="margin:0;">
+          <img src="images/photo1.jpg" alt="Photo crop from the original front page" width="100%">
+          
+        </figure>
+
+        <hr>
+
+        <section id="timeline">
+          <h2 style="margin-top:0;">Burial (Summary)</h2>
+          <p>
+            Funeral arrangements for General Muhammad Zia-ul-Haq were carried out in Islamabad under heavy security.
+            Large crowds gathered to pay their respects, while senior civil and military officials attended the rites.
+            The burial took place at the Faisal Mosque complex, and prayers were led in a solemn national atmosphere.
+          </p>
+        </section>
+      </td>
+
+      <!-- ===== Center Column (lead story + secondary story) ===== -->
+      <td width="42%" valign="top">
+        <article id="lead">
+          <header>
+            <!-- Removed the lead headline heading line (red-highlighted) -->
+          </header>
+
+          <section>
+            <p>
+              The front page reports a major national shock after a high-profile aircraft accident. The newspaper
+              highlights the immediate uncertainty and the sense of mourning across the country. It also points to
+              urgent constitutional and administrative steps needed to maintain continuity of government.
+            </p>
+            <p>
+              Officials are quoted describing the event as a severe loss, while the report emphasizes national unity
+              and calm. The coverage suggests that a clear legal process would guide the next steps. Multiple short
+              updates appear around the main story, reflecting how quickly information was developing.
+            </p>
+          </section>
+
+          <footer>
+            <p><small>Note: This article is based on the original Urdu headline structure and placement, translated to English and rephrased.</small></p>
+          </footer>
+        </article>
+
+        <hr>
+
+        <article id="reactions">
+          <header>
+            <h2>Regional & International Reactions (Rephrased)</h2>
+          </header>
+          <section>
+            <p>
+              The newspaper includes brief reactions attributed to political leaders and foreign governments. Messages
+              of condolence and concern appear alongside comments about stability in the region. The tone remains formal,
+              focusing on diplomacy and sympathy rather than speculation.
+            </p>
+            <p>
+              A few boxed items summarize statements, reflecting a classic newspaper practice of grouping short dispatches.
+              The center column visually mirrors this by placing a main narrative above smaller supporting notes.
+            </p>
+          </section>
+        </article>
+      </td>
+
+      <!-- ===== Right Column (boxed briefs like the original) ===== -->
+      <td width="24%" valign="top">
+        <section>
+          <!-- Removed the "Briefs (Boxed Items)" heading (red-highlighted) -->
+
+          <article>
+            <h3 style="margin:6px 0;">Security & Administration</h3>
+            <p>
+              Short updates mention heightened security measures and administrative coordination. The reporting frames
+              these steps as routine actions to protect order and ensure smooth state operations.
+            </p>
+          </article>
+
+          <hr>
+
+          <article>
+            <h3 style="margin:6px 0;">Political Developments</h3>
+            <p>
+              Another boxed report discusses immediate political discussions and meetings. It stresses that decisions
+              should follow the constitution and established procedures, reducing confusion in a tense moment.
+            </p>
+          </article>
+
+          <hr>
+
+          <article id="notes">
+            <!-- Removed the "How This Layout Matches the Original" section (red-highlighted) -->
+          </article>
+        </section>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- Reference to original scan (required asset in images/) -->
+  <section>
+    <!-- Removed the "Original Newspaper Scan" heading + paragraph (red-highlighted) -->
+  </section>
+
+</main>
+
+
+</body>
+</html>
