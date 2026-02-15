@@ -1,14 +1,14 @@
 # HTML Newspaper Recreation - Daily Mashriq (Urdu) Front Page
 
-## Student Information
-- **Name:** [Your Name]
-- **Roll Number:** [Your Roll No]
-- **Section:** [Your Section]
+
+- **Name:** Syed Saad Kabeer
+- **Roll Number:** 22P-9032
+- **Section:** BCS-8B
 
 ## Original Newspaper
 - **Name:** روزنامہ مشرق (Daily Mashriq)
 - **Date:** 19 August 1988 (pre-1990)
-- **Source:** Public online archive image (saved inside `images/original-newspaper.jpg`)
+- **Source:** Public online archive image
 
 ## Project Description
 This project recreates a pre-1990 Urdu newspaper front page using HTML-only layout techniques. The page structure follows a newspaper-like grid with a lead story, a photo area, and boxed briefs, while all Urdu headlines/body text are translated to English and rephrased.
